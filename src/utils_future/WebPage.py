@@ -15,7 +15,7 @@ class WebPage:
 
     @property
     def hash(self):
-        return Hash.md5(self.url)
+        return Hash.md5(self.url)[:8]
 
     @property
     def temp_html_path(self):
@@ -83,3 +83,15 @@ class WebPage:
                 ):
                     queue.append(neighbour)
         log.debug('🛑 All PDF pages have been visited.')
+
+    def download_binary(self, binary_path):
+        response = requests.get(self.url, verify=False)
+        if response.status_code == 200:
+            with open(binary_path, 'wb') as f:
+                f.write(response.content)
+            file_size_k = len(response.content) / 1000
+            log.debug(f'Wrote {binary_path} ({file_size_k:.1f} KB)')
+        else:
+            log.error(
+                f'Failed to download {self.url} - {response.status_code}'
+            )
