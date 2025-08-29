@@ -11,6 +11,9 @@ class WebPage:
     def __init__(self, url):
         self.url = url
 
+    def __hash__(self):
+        return hash(self.url)
+
     def __str__(self):
         return f"🌐 {self.url}"
 

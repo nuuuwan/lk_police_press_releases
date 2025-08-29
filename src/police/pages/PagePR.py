@@ -50,11 +50,13 @@ class PagePR(WebPage):
         for div, h3 in self.__gen_div_date_list__():
             press_release_list.extend(self.__parse_div_date_list__(div, h3))
 
+        date = press_release_list[0].time[:10]
         press_release_list = self.__dedupe_and_sort_press_release_list__(
             press_release_list
         )
         log.debug(
-            f"[{self}] Extracted {len(press_release_list)} press releases"
+            f"[{self}] {date}"
+            + f" Extracted {len(press_release_list)} press releases"
         )
         return press_release_list
 
