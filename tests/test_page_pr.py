@@ -7,9 +7,9 @@ TEST_PAGE_PR = PagePR(TEST_URL)
 
 
 class TestCase(unittest.TestCase):
-    def test_get_pr_list(self):
-        pr_list = TEST_PAGE_PR.get_pr_list()
-        self.assertEqual(len(pr_list), 58)
+    def test_get_press_release_list(self):
+        press_release_list = TEST_PAGE_PR.get_press_release_list()
+        self.assertEqual(len(press_release_list), 58)
 
     def test_get_more_page(self):
         more_page = TEST_PAGE_PR.get_more_page()
