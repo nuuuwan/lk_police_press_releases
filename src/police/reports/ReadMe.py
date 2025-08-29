@@ -18,7 +18,7 @@ class Markdown:
 
         # Create table header
         header = " | ".join(f"{key}" for key in d_list[0].keys())
-        separator = "-|-".join("-" * 3 for key in d_list[0].keys())
+        separator = "|".join("---:" for _ in d_list[0].keys())
 
         # Create table rows
         rows = [" | ".join(f"{value}" for value in d.values()) for d in d_list]
