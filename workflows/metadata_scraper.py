@@ -1,7 +1,8 @@
 import sys
 
-DEFAULT_MAX_DT = 120
 from police import PagePressHome
+
+DEFAULT_MAX_DT = 120
 
 
 def main(max_dt):
