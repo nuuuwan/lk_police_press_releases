@@ -26,9 +26,13 @@ class PressReleaseWriteMixin:
     def metadata_path(self):
         return os.path.join(self.dir_press_release, "metadata.json")
 
+    @cached_property
+    def has_metadata(self):
+        return os.path.exists(self.metadata_path)
+
     def write(self):
         os.makedirs(self.dir_press_release, exist_ok=True)
-        if os.path.exists(self.metadata_path):
+        if self.has_metadata:
             return
 
         JSONFile(self.metadata_path).write(self.to_dict())
