@@ -72,3 +72,6 @@ class PagePR(WebPage):
 
     def get_prev_page(self) -> "PagePR":
         return self.__get_labelled_page__("Previous")
+
+    def get_next_page(self) -> "PagePR":
+        return self.__get_labelled_page__("Next")

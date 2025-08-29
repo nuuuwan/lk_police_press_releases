@@ -23,7 +23,6 @@ class PagePressHome(WebPage):
         return PagePR(self.__get_latest_pr_page_url__())
 
     def spider(self, max_dt):
-        log.info(f"Starting 🕷️ spider with {max_dt=}s")
         page = self.get_latest_pr_page()
         page_queue = Queue()
         page_queue.put(page)
@@ -46,13 +45,16 @@ class PagePressHome(WebPage):
             page = page_queue.get()
             visited_pages.add(page)
 
-            n_press_releases = len(press_release_list)
-            log.debug(f"Scraping {page} ({n_press_releases=:,})")
+            log.debug(f"Scraping {page}")
             try:
                 press_release_list_for_page = page.get_press_release_list()
                 press_release_list.extend(press_release_list_for_page)
 
-                for page in [page.get_more_page(), page.get_prev_page()]:
+                for page in [
+                    page.get_more_page(),
+                    page.get_prev_page(),
+                    page.get_next_page(),
+                ]:
                     if page and page not in visited_pages:
                         page_queue.put(page)
             except Exception as e:
