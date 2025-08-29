@@ -8,6 +8,9 @@ from police import PressRelease
 log = Log("pdf_downloader")
 
 
+DEFAULT_MAX_DT = 1_200
+
+
 def main(max_dt):
     press_release_list = PressRelease.list_all()
     t_start = time.time()
@@ -23,4 +26,4 @@ def main(max_dt):
 
 
 if __name__ == "__main__":
-    main(max_dt=int(sys.argv[1]) if len(sys.argv) > 1 else None)
+    main(max_dt=int(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_MAX_DT)
