@@ -2,7 +2,7 @@ import requests
 import urllib3
 from utils import Log
 
-from utils_future.FileFuture import FileFuture
+from utils_future.FileOrDirFuture import FileOrDirFuture
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -10,7 +10,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 log = Log("PDFFile")
 
 
-class PDFFile(FileFuture):
+class PDFFile(FileOrDirFuture):
 
     @staticmethod
     def download(url: str, pdf_path: str) -> "PDFFile":
