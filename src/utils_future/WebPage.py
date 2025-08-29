@@ -12,7 +12,7 @@ class WebPage:
         self.url = url
 
     def __str__(self):
-        return f"WebPage({self.url})"
+        return f"🌐 {self.url}"
 
     @cached_property
     def html(self):
