@@ -21,7 +21,9 @@ class Markdown:
         separator = "|".join("---:" for _ in d_list[0].keys())
 
         # Create table rows
-        rows = [" | ".join(f"{value}" for value in d.values()) for d in d_list]
+        rows = [
+            " | ".join(f"{value}" for value in d.values()) for d in d_list
+        ]
 
         return [header, separator] + rows
 
