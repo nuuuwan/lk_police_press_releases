@@ -25,9 +25,13 @@ class PagePR(WebPage):
         h5_list = div.find_all("h5")
         for h5 in h5_list:
             time_str = h5.get_text(strip=True)
-            time = Parse.time(f"{date_str} {time_str}")
+            time = Parse.time(
+                f"{date_str} {time_str}".replace("hrs.", "")[:15]
+            )
 
             a = h5.find("a")
+            if not a:
+                continue
             url_pdf = a["href"]
             assert url_pdf.lower().endswith(".pdf")
             pr = PressRelease(time=time, url_pdf=url_pdf)

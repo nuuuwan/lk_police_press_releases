@@ -9,3 +9,8 @@ class TestCase(unittest.TestCase):
             PagePressHome().get_latest_pr_page().url,
             "https://www.police.lk/?p=11837",
         )
+
+    def test_spider(self):
+        limit = 1_000
+        pr_list = PagePressHome().spider(limit)
+        self.assertGreaterEqual(len(pr_list), limit)

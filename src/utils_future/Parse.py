@@ -6,6 +6,6 @@ class Parse:
 
     @staticmethod
     def time(x) -> str:
-        x = x.replace("hrs", "")
+
         dt = parser.parse(x)
         return dt.strftime(Parse.TIME_FORMAT)
