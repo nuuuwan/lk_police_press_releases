@@ -1,3 +1,4 @@
+import PyPDF2
 import requests
 import urllib3
 from utils import Log
@@ -23,3 +24,11 @@ class PDFFile(FileOrDirFuture):
         pdf_file = PDFFile(pdf_path)
         log.info(f"Wrote {pdf_file}")
         return pdf_file
+
+    def extract_text(self) -> str:
+        text = ""
+        with open(self.path, "rb") as f:
+            reader = PyPDF2.PdfReader(f)
+            for page in reader.pages:
+                text += page.extract_text() or ""
+        return text

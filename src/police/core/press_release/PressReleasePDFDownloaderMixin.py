@@ -13,7 +13,7 @@ class PressReleasePDFDownloaderMixin:
     def pdf_path(self):
         return os.path.join(self.dir_press_release, "si.pdf")
 
-    @cached_property
+    @property
     def has_pdf(self):
         return os.path.exists(self.pdf_path)
 

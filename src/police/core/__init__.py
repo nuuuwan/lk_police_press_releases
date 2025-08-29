@@ -3,6 +3,7 @@
 
 from police.core.press_release import (PressRelease,
                                        PressReleasePDFDownloaderMixin,
+                                       PressReleasePDFTextExtractorMixin,
                                        PressReleaseReadMixin,
                                        PressReleaseStatusMixin,
                                        PressReleaseWriteMixin)

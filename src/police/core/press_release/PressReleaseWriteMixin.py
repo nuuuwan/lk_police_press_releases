@@ -26,7 +26,7 @@ class PressReleaseWriteMixin:
     def metadata_path(self):
         return os.path.join(self.dir_press_release, "metadata.json")
 
-    @cached_property
+    @property
     def has_metadata(self):
         return os.path.exists(self.metadata_path)
 

@@ -5,6 +5,8 @@ from utils import Log
 
 from police.core.press_release.PressReleasePDFDownloaderMixin import \
     PressReleasePDFDownloaderMixin
+from police.core.press_release.PressReleasePDFTextExtractorMixin import \
+    PressReleasePDFTextExtractorMixin
 from police.core.press_release.PressReleaseReadMixin import \
     PressReleaseReadMixin
 from police.core.press_release.PressReleaseStatusMixin import \
@@ -21,6 +23,7 @@ class PressRelease(
     PressReleaseReadMixin,
     PressReleaseStatusMixin,
     PressReleasePDFDownloaderMixin,
+    PressReleasePDFTextExtractorMixin,
 ):
     time: str
     url_pdf: str

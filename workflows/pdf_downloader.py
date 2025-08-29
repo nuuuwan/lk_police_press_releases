@@ -18,6 +18,7 @@ def main(max_dt):
             log.info(f"🛑 Reached {dt:.1f} s> {max_dt}s. Stopping.")
             break
         press_release.download_pdf()
+        press_release.extract_text()
     log.info("🛑 Finished downloading all PDFs.")
 
 
