@@ -1,6 +1,6 @@
 from utils import Log
 
-from police.core.PressRelease import PressRelease
+from police.core import PressRelease
 from utils_future import Parse, WebPage
 
 log = Log("PagePR")
