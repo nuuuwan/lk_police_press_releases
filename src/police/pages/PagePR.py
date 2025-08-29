@@ -48,3 +48,18 @@ class PagePR(WebPage):
         pr_list = self.__dedupe_and_sort_pr_list__(pr_list)
         log.info(f"[{self}] Extracted {len(pr_list)} press releases")
         return pr_list
+
+    def __get_labelled_page__(self, label):
+        a_list = self.soup.find_all("a")
+        for a in a_list:
+            span = a.find("span", text=label)
+            if span:
+                return PagePR(a["href"])
+        log.warning(f"[{self}] '{label}' link not found")
+        return None
+
+    def get_more_page(self) -> "PagePR":
+        return self.__get_labelled_page__("More")
+
+    def get_prev_page(self) -> "PagePR":
+        return self.__get_labelled_page__("Previous")
