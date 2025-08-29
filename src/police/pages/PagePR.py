@@ -35,23 +35,28 @@ class PagePR(WebPage):
             url_pdf = a["href"]
             assert url_pdf.lower().endswith(".pdf")
             pr = PressRelease(time=time, url_pdf=url_pdf)
+            pr.write()
             yield pr
 
     @staticmethod
-    def __dedupe_and_sort_pr_list__(pr_list):
-        idx = {pr.time: pr for pr in pr_list}
-        pr_list = list(idx.values())
-        pr_list.sort(key=lambda pr: pr.time)
-        return pr_list
+    def __dedupe_and_sort_press_release_list__(press_release_list):
+        idx = {pr.time: pr for pr in press_release_list}
+        press_release_list = list(idx.values())
+        press_release_list.sort(key=lambda pr: pr.time)
+        return press_release_list
 
-    def get_pr_list(self) -> list[PressRelease]:
-        pr_list = []
+    def get_press_release_list(self) -> list[PressRelease]:
+        press_release_list = []
         for div, h3 in self.__gen_div_date_list__():
-            pr_list.extend(self.__parse_div_date_list__(div, h3))
+            press_release_list.extend(self.__parse_div_date_list__(div, h3))
 
-        pr_list = self.__dedupe_and_sort_pr_list__(pr_list)
-        log.info(f"[{self}] Extracted {len(pr_list)} press releases")
-        return pr_list
+        press_release_list = self.__dedupe_and_sort_press_release_list__(
+            press_release_list
+        )
+        log.debug(
+            f"[{self}] Extracted {len(press_release_list)} press releases"
+        )
+        return press_release_list
 
     def __get_labelled_page__(self, label):
         a_list = self.soup.find_all("a")
@@ -59,7 +64,7 @@ class PagePR(WebPage):
             span = a.find("span", text=label)
             if span:
                 return PagePR(a["href"])
-        log.warning(f"[{self}] '{label}' link not found")
+        log.debug(f"[{self}] '{label}' link not found")
         return None
 
     def get_more_page(self) -> "PagePR":
