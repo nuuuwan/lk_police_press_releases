@@ -27,8 +27,8 @@ jobs:
       - name: "⬇️ Checkout lk_police_docs_data"
         uses: actions/checkout@v4
         with:
-          repository: nuuuwan/lk_police_docs_data
-          ref: "main"
+          repository: nuuuwan/lk_police_docs
+          ref: "data"
           path: "lk_police_docs_data"
           token: ${{ secrets.REPO_DATA_TOKEN }}
           fetch-depth: 1
