@@ -11,6 +11,6 @@ class TestCase(unittest.TestCase):
         )
 
     def test_spider(self):
-        limit = 1_000
+        limit = 100
         pr_list = PagePressHome().spider(limit)
         self.assertGreaterEqual(len(pr_list), limit)

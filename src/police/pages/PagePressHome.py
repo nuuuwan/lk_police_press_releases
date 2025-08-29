@@ -40,5 +40,8 @@ class PagePressHome(WebPage):
                 if page and page not in visited_pages:
                     page_queue.put(page)
 
+        for pr in pr_list:
+            pr.write()
+
         log.info(f"🕷️ Spidered {len(pr_list)} press releases")
         return pr_list
