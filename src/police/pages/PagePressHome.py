@@ -46,13 +46,17 @@ class PagePressHome(WebPage):
             page = page_queue.get()
             visited_pages.add(page)
 
-            log.debug(f"Scraping {page}")
-            press_release_list_for_page = page.get_press_release_list()
-            press_release_list.extend(press_release_list_for_page)
+            n_press_releases = len(press_release_list)
+            log.debug(f"Scraping {page} ({n_press_releases=:,})")
+            try:
+                press_release_list_for_page = page.get_press_release_list()
+                press_release_list.extend(press_release_list_for_page)
 
-            for page in [page.get_more_page(), page.get_prev_page()]:
-                if page and page not in visited_pages:
-                    page_queue.put(page)
+                for page in [page.get_more_page(), page.get_prev_page()]:
+                    if page and page not in visited_pages:
+                        page_queue.put(page)
+            except Exception as e:
+                log.error(f"Error scraping {page}: {e}")
 
         log.info(f"🕷️ Spidered {len(press_release_list)} press releases")
         return press_release_list
