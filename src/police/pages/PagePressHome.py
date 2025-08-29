@@ -45,7 +45,6 @@ class PagePressHome(WebPage):
             page = page_queue.get()
             visited_pages.add(page)
 
-            log.debug(f"Scraping {page}")
             try:
                 press_release_list_for_page = page.get_press_release_list()
                 press_release_list.extend(press_release_list_for_page)
