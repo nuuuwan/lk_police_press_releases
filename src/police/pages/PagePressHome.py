@@ -43,8 +43,10 @@ class PagePressHome(WebPage):
                 break
 
             page = page_queue.get()
-            visited_pages.add(page)
+            if page in visited_pages:
+                continue
 
+            visited_pages.add(page)
             try:
                 press_release_list_for_page = page.get_press_release_list()
                 press_release_list.extend(press_release_list_for_page)
@@ -52,7 +54,6 @@ class PagePressHome(WebPage):
                 for page in [
                     page.get_more_page(),
                     page.get_prev_page(),
-                    page.get_next_page(),
                 ]:
                     if page and page not in visited_pages:
                         page_queue.put(page)

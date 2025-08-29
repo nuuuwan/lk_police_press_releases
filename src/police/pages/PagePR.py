@@ -66,7 +66,6 @@ class PagePR(WebPage):
             span = a.find("span", text=label)
             if span:
                 return PagePR(a["href"])
-        log.debug(f"[{self}] '{label}' link not found")
         return None
 
     def get_more_page(self) -> "PagePR":

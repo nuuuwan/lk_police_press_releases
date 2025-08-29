@@ -14,6 +14,11 @@ class WebPage:
     def __hash__(self):
         return hash(self.url)
 
+    def __eq__(self, other):
+        if not isinstance(other, WebPage):
+            return False
+        return self.url == other.url
+
     def __str__(self):
         return f"🌐 {self.url}"
 
