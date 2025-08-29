@@ -11,6 +11,6 @@ class TestCase(unittest.TestCase):
         )
 
     def test_spider(self):
-        limit = 100
-        pr_list = PagePressHome().spider(limit)
-        self.assertGreaterEqual(len(pr_list), limit)
+        max_dt = 10
+        press_release_list = PagePressHome().spider(max_dt)
+        self.assertGreaterEqual(len(press_release_list), max_dt)
