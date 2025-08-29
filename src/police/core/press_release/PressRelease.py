@@ -3,6 +3,8 @@ from functools import cached_property
 
 from utils import Log
 
+from police.core.press_release.PressReleasePDFDownloaderMixin import \
+    PressReleasePDFDownloaderMixin
 from police.core.press_release.PressReleaseReadMixin import \
     PressReleaseReadMixin
 from police.core.press_release.PressReleaseStatusMixin import \
@@ -15,7 +17,10 @@ log = Log("PressRelease")
 
 @dataclass
 class PressRelease(
-    PressReleaseWriteMixin, PressReleaseReadMixin, PressReleaseStatusMixin
+    PressReleaseWriteMixin,
+    PressReleaseReadMixin,
+    PressReleaseStatusMixin,
+    PressReleasePDFDownloaderMixin,
 ):
     time: str
     url_pdf: str
