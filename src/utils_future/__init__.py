@@ -3,5 +3,5 @@
 
 from utils_future.FileOrDirFuture import FileOrDirFuture
 from utils_future.Parse import Parse
-from utils_future.PDFFile import PDFFile
+from utils_future.pdf_file import PDFFile, PDFTextMixin
 from utils_future.WebPage import WebPage
