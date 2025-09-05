@@ -4,9 +4,24 @@ import unittest
 from utils_future import PDFFile
 
 TEST_PDF_FILE = PDFFile(os.path.join("tests", "input", "si.pdf"))
+TEST_URL = (
+    "https://www.police.lk"
+    + "/wp-content/uploads"
+    + "/2025/05/Media-on-2025.05.29-at-0615_compressed.pdf"
+)
 
 
 class TestCase(unittest.TestCase):
+
+    def test_download(self):
+        pdf_path = os.path.join("tests", "output", "si_downloaded.pdf")
+        if os.path.exists(pdf_path):
+            os.remove(pdf_path)
+        pdf_file = PDFFile.download(TEST_URL, pdf_path)
+        self.assertIsInstance(pdf_file, PDFFile)
+        self.assertTrue(os.path.exists(pdf_path))
+        file_size = os.path.getsize(pdf_path)
+        self.assertEqual(file_size, 139_987)
 
     def test_get_block_info_list(self):
         block_info_list = TEST_PDF_FILE.get_block_info_list()
