@@ -12,7 +12,7 @@ class TestCase(unittest.TestCase):
         block_info_list = TEST_PDF_FILE.get_block_info_list()
         self.assertTrue(len(block_info_list), 10)
         first_block = block_info_list[0]
-        print(first_block)
+
         self.assertEqual(
             first_block,
             {
