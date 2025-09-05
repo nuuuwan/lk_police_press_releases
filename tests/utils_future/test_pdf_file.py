@@ -28,3 +28,7 @@ class TestCase(unittest.TestCase):
                 ],
             },
         )
+
+    def test_extract_text(self):
+        text = TEST_PDF_FILE.extract_text()
+        self.assertEqual(len(text), 4_032)

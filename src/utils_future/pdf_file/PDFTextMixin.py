@@ -62,3 +62,8 @@ class PDFTextMixin:
                 )
                 block_info_list.append(block_info)
         return block_info_list
+
+    def extract_text(self):
+        block_info_list = self.get_block_info_list()
+        text_parts = [block["text"] for block in block_info_list]
+        return "\n".join(text_parts)
