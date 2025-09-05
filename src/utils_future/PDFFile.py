@@ -32,3 +32,8 @@ class PDFFile(FileOrDirFuture):
             for page in reader.pages:
                 text += page.extract_text() or ""
         return text
+
+    def extract_metadata(self):
+        with open(self.path, "rb") as f:
+            reader = PyPDF2.PdfReader(f)
+            return reader.metadata
