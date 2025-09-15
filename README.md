@@ -6,4 +6,4 @@ Public Documents scraped from [https://www.police.lk](https://www.police.lk)
 
 data | n | n_metadata | n_pdf | n_block_text
 ---:|---:|---:|---:|---:
-114.0 MB | 664 | 664 | 664 | 664
+114.7 MB | 668 | 668 | 668 | 668
