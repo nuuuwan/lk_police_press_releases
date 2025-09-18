@@ -1,11 +1,11 @@
 {
-  "time_updated": "2025--09--18_16:07:48",
+  "time_updated": "2025-09-18 17:50:07",
   "n_docs": 675,
   "n_docs_with_pdfs": 675,
   "p_docs_with_pdfs": 1.0,
   "date_str_min": "2025-05-01",
   "date_str_max": "2025-09-18",
-  "total_size_humanized": "609.8 kB",
+  "dataset_size": 226497650,
   "url_source": "https://www.police.lk/",
   "url_data": "https://github.com/nuuuwan/lk_police_press_releases/tree/data",
   "url_repo": "https://github.com/nuuuwan/lk_police_press_releases"
