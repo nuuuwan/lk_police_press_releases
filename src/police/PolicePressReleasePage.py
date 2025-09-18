@@ -62,9 +62,3 @@ class PolicePressReleasePage(WWW):
         for div, h3 in self.__gen_div_date_list__():
             d_list = self.__gen_dicts_from_div_date_list__(div, h3)
             yield from d_list
-
-        date = d_list[0]["time_str"][:10]
-        log.debug(
-            f"[{self}] {date}" + f" Extracted {len(d_list)} press releases"
-        )
-        return d_list
