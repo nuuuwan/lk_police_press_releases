@@ -1,12 +1,24 @@
 {
-  "time_updated": "2025-09-18 18:17:28",
+  "doc_class_label": "lk_police_press_releases",
+  "time_updated": "2025-09-18 19:44:27",
   "n_docs": 675,
   "n_docs_with_pdfs": 675,
-  "p_docs_with_pdfs": 1.0,
+  "n_docs_with_text": 675,
   "date_str_min": "2025-05-01",
   "date_str_max": "2025-09-18",
-  "dataset_size": 226497650,
+  "dataset_size": 230594359,
   "url_source": "https://www.police.lk/",
   "url_data": "https://github.com/nuuuwan/lk_police_press_releases/tree/data",
-  "url_repo": "https://github.com/nuuuwan/lk_police_press_releases"
+  "url_repo": "https://github.com/nuuuwan/lk_police_press_releases",
+  "latest_doc_d": {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-09-18-2025-09-18-06-30",
+    "num": "2025-09-18 06:30",
+    "date_str": "2025-09-18",
+    "description": "2025-09-18 06:30",
+    "url_metadata": "https://www.police.lk/?p=13977",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.18-at-0630-_compressed.pdf",
+    "time_str": "2025-09-18 06:30"
+  }
 }

@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:36:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:44:27-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
-📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**230.5 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**230.6 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
 💾 In ✅ **JSON**, ✅ **PDF**, ✅ **TXT** and ✅ **🤗 Hugging Face**
 
@@ -64,3 +64,4 @@
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
