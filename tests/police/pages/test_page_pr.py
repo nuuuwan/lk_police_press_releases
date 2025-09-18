@@ -1,9 +1,9 @@
 import unittest
 
-from police import PagePR
+from police import PolicePressReleasePage
 
 TEST_URL = "https://www.police.lk/?p=8986"
-TEST_PAGE_PR = PagePR(TEST_URL)
+TEST_PAGE_PR = PolicePressReleasePage(TEST_URL)
 
 
 class TestCase(unittest.TestCase):
