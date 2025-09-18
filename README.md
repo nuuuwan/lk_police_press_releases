@@ -1,11 +1,11 @@
 # 🇱🇰 #SriLanka Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_11:42:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_11:56:31-green)
 ![DatasetSize](https://img.shields.io/badge/dataset_size-0.2_GB-yellow)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
-📜 [**1** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**0.2 GB**), from **2025-09-18** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**0.2 GB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
 📑 In JSON, PDF, TXT and 🤗 Hugging Face Formats
 
@@ -17,7 +17,7 @@
 
 ...
 
-*📒 PDFs have been downloaded for **0** (**0%**) documents*
+*📒 PDFs have been downloaded for **26** (**4%**) documents*
 
 🪲 #WorkInProgress - Suggestions, Questions, Ideas, & [Bug Reports](https://github.com/nuuuwan/lk_police_press_releases/issues) are welcome!
 
@@ -51,6 +51,25 @@
 ## 🆕 20 Latest documents
 
 - 2025-09-18 | `2025-09-18 06:30` | 2025-09-18 06:30 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-18-2025-09-18-06-30)
+- 2025-09-17 | `2025-09-17 10:05` | 2025-09-17 10:05 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-17-2025-09-17-10-05)
+- 2025-09-17 | `2025-09-17 06:35` | 2025-09-17 06:35 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-17-2025-09-17-06-35)
+- 2025-09-16 | `2025-09-16 08:35` | 2025-09-16 08:35 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-16-2025-09-16-08-35)
+- 2025-09-16 | `2025-09-16 06:15` | 2025-09-16 06:15 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-16-2025-09-16-06-15)
+- 2025-09-15 | `2025-09-15 09:20` | 2025-09-15 09:20 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-15-2025-09-15-09-20)
+- 2025-09-15 | `2025-09-15 06:20` | 2025-09-15 06:20 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-15-2025-09-15-06-20)
+- 2025-09-15 | `2025-09-15 00:05` | 2025-09-15 00:05 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-15-2025-09-15-00-05)
+- 2025-09-14 | `2025-09-14 11:15` | 2025-09-14 11:15 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-14-2025-09-14-11-15)
+- 2025-09-14 | `2025-09-14 06:25` | 2025-09-14 06:25 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-14-2025-09-14-06-25)
+- 2025-09-13 | `2025-09-13 11:10` | 2025-09-13 11:10 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-13-2025-09-13-11-10)
+- 2025-09-13 | `2025-09-13 11:05` | 2025-09-13 11:05 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-13-2025-09-13-11-05)
+- 2025-09-13 | `2025-09-13 09:10` | 2025-09-13 09:10 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-13-2025-09-13-09-10)
+- 2025-09-13 | `2025-09-13 06:25` | 2025-09-13 06:25 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-13-2025-09-13-06-25)
+- 2025-09-12 | `2025-09-12 15:15` | 2025-09-12 15:15 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-12-2025-09-12-15-15)
+- 2025-09-12 | `2025-09-12 15:10` | 2025-09-12 15:10 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-12-2025-09-12-15-10)
+- 2025-09-12 | `2025-09-12 13:30` | 2025-09-12 13:30 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-12-2025-09-12-13-30)
+- 2025-09-12 | `2025-09-12 11:25` | 2025-09-12 11:25 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-12-2025-09-12-11-25)
+- 2025-09-12 | `2025-09-12 09:25` | 2025-09-12 09:25 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-12-2025-09-12-09-25)
+- 2025-09-12 | `2025-09-12 06:10` | 2025-09-12 06:10 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-12-2025-09-12-06-10)
 
 ---
 
