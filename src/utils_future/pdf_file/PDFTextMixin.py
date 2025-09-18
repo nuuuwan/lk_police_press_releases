@@ -7,10 +7,13 @@ log = Log("PDFTextMixin")
 
 
 class PDFTextMixin:
+    MIN_TEXT_SIZE = 1_000
+
     @staticmethod
     def __clean_text__(text: str) -> str:
         text = text or ""
         text = text.replace("\n", " ")
+        text = re.sub(r"[^\x00-\x7F]+", "", text)
         text = re.sub(r"\s+", " ", text)
         text = text.strip()
         return text
@@ -41,13 +44,11 @@ class PDFTextMixin:
         text = PDFTextMixin.__clean_text__(text)
         return fonts, sizes, text
 
-    def get_block_info_list(self):
+    def get_blocks(self):
         doc = pymupdf.open(self.path)
         block_info_list = []
         for page in doc:
             for b in page.get_text("dict").get("blocks", []):
-                if b.get("type", 0) != 0:
-                    continue
                 fonts, sizes, text = self.__parse_lines__(b)
                 if not text:
                     continue
@@ -62,8 +63,3 @@ class PDFTextMixin:
                 )
                 block_info_list.append(block_info)
         return block_info_list
-
-    def extract_text(self):
-        block_info_list = self.get_block_info_list()
-        text_parts = [block["text"] for block in block_info_list]
-        return "\n".join(text_parts)
