@@ -1,12 +1,12 @@
 # 🇱🇰 #SriLanka Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:47:38-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_20:07:54-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
 📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**230.6 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
-💾 In ✅ **JSON**, ✅ **PDF**, ✅ **TXT** and ✅ **🤗 Hugging Face**
+💾 In **JSON**, **PDF**, **TXT** and **🤗 Hugging Face**
 
 🗣️ In **සිංහල**
 
