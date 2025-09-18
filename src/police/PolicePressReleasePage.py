@@ -63,7 +63,6 @@ class PolicePressReleasePage(WWW):
             )
 
     def gen_dicts(self) -> Generator[dict, None, None]:
-        d_list = []
+        log.debug("Processing PolicePressReleasePage: " + self.url)
         for div, h3 in self.__gen_div_date_list__():
-            d_list = self.__gen_dicts_from_div_date_list__(div, h3)
-            yield from d_list
+            yield from self.__gen_dicts_from_div_date_list__(div, h3)
