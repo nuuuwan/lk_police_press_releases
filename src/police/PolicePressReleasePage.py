@@ -21,7 +21,10 @@ class PolicePressReleasePage(WWW):
             yield div, h3_list[0]
 
     def __get_labelled_page__(self, label):
-        a_list = self.soup.find_all("a")
+        soup = self.soup
+        if not soup:
+            return None
+        a_list = soup.find_all("a")
         for a in a_list:
             span = a.find("span", text=label)
             if span:
