@@ -1,14 +1,14 @@
 # 🇱🇰 #SriLanka Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_20:07:54-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_22:09:45-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
-📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**230.6 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+- [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**230.6 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
-💾 In **JSON**, **PDF**, **TXT** and **🤗 Hugging Face**
+- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
-🗣️ In **සිංහල**
+- In **සිංහල**
 
 ## 📝 Example Metadata
 
@@ -34,8 +34,8 @@
 
 ![HuggingFace](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace)
 
-- 📄 [nuuuwan/lk-police-press-releases-docs](https://huggingface.co/datasets/nuuuwan/lk-police-press-releases-docs)
-- 📦 [nuuuwan/lk-police-press-releases-chunks](https://huggingface.co/datasets/nuuuwan/lk-police-press-releases-chunks)
+- [nuuuwan/lk-police-press-releases-docs](https://huggingface.co/datasets/nuuuwan/lk-police-press-releases-docs)
+- [nuuuwan/lk-police-press-releases-chunks](https://huggingface.co/datasets/nuuuwan/lk-police-press-releases-chunks)
 
 ## 🆕 20 Latest documents
 
@@ -61,6 +61,8 @@
 - 2025-09-12 | `2025-09-12 06:10` | 2025-09-12 06:10 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-12-2025-09-12-06-10)
 
 ---
+
+### [More Datasets about 🇱🇰 #SriLanka](https://github.com/nuuuwan/lk_datasets)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
