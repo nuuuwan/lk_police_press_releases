@@ -1,25 +1,14 @@
 # 🇱🇰 #SriLanka Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_18:17:27-green)
-![DatasetSize](https://img.shields.io/badge/dataset_size-226.5_MB-yellow)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:36:05-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
-📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**226.5 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**230.5 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
-📑 In JSON, PDF, TXT and 🤗 Hugging Face Formats
+💾 In ✅ **JSON**, ✅ **PDF**, ✅ **TXT** and ✅ **🤗 Hugging Face**
 
-⏰ Updated **at least Daily**
-
-🆓 Public data & fully open-source
-
-#OpenData #DataScience #DataForGood #ResearchData #NLP
-
-...
-
-*📒 PDFs have been downloaded for **675** (**100%**) documents*
-
-🪲 #WorkInProgress - Suggestions, Questions, Ideas, & [Bug Reports](https://github.com/nuuuwan/lk_police_press_releases/issues) are welcome!
+🗣️ In **සිංහල**
 
 ## 📝 Example Metadata
 
