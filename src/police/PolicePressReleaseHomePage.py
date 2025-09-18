@@ -23,7 +23,7 @@ class PolicePressReleaseHomePage(WWW):
         return PolicePressReleasePage(self.__get_latest_pr_page_url__())
 
     def gen_dicts(self) -> Generator[dict, None, None]:
-        log.debug("Processing PolicePressReleaseHomePage")
+        log.debug(f"Parsing {self}.")
         page = self.get_latest_pr_page()
         page_queue = Queue()
         page_queue.put(page)
