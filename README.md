@@ -1,11 +1,11 @@
 # 🇱🇰 #SriLanka Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_13:58:08-green)
-![DatasetSize](https://img.shields.io/badge/dataset_size-608.8 kB-yellow)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_14:09:47-green)
+![DatasetSize](https://img.shields.io/badge/dataset_size-609.5 kB-yellow)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
-📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**608.8 kB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**609.5 kB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
 📑 In JSON, PDF, TXT and 🤗 Hugging Face Formats
 
