@@ -32,7 +32,7 @@ class PolicePressReleaseHomePage(WWW):
             if page in visited_pages:
                 continue
             visited_pages.add(page)
-            yield from page.get_gen_dicts()
+            yield from page.gen_dicts()
 
             for page in [
                 page.get_more_page(),
