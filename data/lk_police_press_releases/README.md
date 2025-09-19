@@ -1,6 +1,6 @@
 # 👮‍♂️#SriLanka 🇱🇰 Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_14:09:34-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:08:21-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -32,7 +32,7 @@ In Sri Lanka, police press releases are especially relevant because they provide
 
 ## Documents By Year
 
-![Documents by year](images/docs_by_year.png)
+![Documents by year](../lk_police_press_releases_data/data/lk_police_press_releases/docs_by_year.png)
 
 ## 🤗 Hugging Face Datasets
 
