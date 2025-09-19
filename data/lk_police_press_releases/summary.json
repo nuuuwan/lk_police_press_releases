@@ -1,14 +1,14 @@
 {
   "doc_class_label": "lk_police_press_releases",
   "doc_class_emoji": "\ud83d\udc6e\u200d\u2642\ufe0f",
-  "doc_class_description": "A police press release is an official public statement issued by the police to inform citizens and the media about incidents, investigations, arrests, public safety alerts, or law enforcement initiatives. It serves as an authoritative source of information, countering rumors and ensuring transparency in policing.\n\nIn Sri Lanka, police press releases are especially relevant because they provide timely updates on security matters, traffic advisories, crime prevention campaigns, and major national events. Given the country\u2019s sensitivity to issues of law, order, and public trust, these releases play a key role in shaping public awareness and confidence in the justice system.",
-  "time_updated": "2025-09-19 16:08:21",
+  "doc_class_description": "A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.",
+  "time_updated": "2025-09-19 18:17:32",
   "n_docs": 678,
   "n_docs_with_pdfs": 678,
   "n_docs_with_text": 678,
   "date_str_min": "2025-05-01",
   "date_str_max": "2025-09-19",
-  "dataset_size": 231774416,
+  "dataset_size": 231915398,
   "url_source": "https://www.police.lk/",
   "url_data": "https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases",
   "langs": [
