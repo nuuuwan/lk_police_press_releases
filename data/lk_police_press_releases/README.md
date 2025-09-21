@@ -1,6 +1,6 @@
 # 👮‍♂️#SriLanka 🇱🇰 Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_00:09:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:05:14-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
