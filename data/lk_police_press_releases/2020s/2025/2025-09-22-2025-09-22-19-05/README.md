@@ -1,0 +1,17 @@
+Clarification Regarding a Fake Letter Circulating on social media
+
+The Sri Lanka Police wishes to inform the general public that a letter currently circulating on social media, claiming to have been issued under the signature of the Inspector General of Police (IGP), is completely false and fabricated.
+
+This fake document falsely alleges that the IGP has instructed the “Bureau for the Investigation of Abuse of Children & Women” to apprehend citizens and non-citizens engaged in activities relating to the viewing, possession, dissemination, distribution, or production of material depicting minors in sexually explicit conduct associated with internet protocol usage.
+
+The Sri Lanka Police categorically states that no such letter has ever been issued by the Inspector General of Police or by any authorized division of the Sri Lanka Police. This document is a deliberate act of misinformation and an attempt to mislead the public.
+
+The public is strongly advised to exercise caution and refrain from sharing, publishing, or endorsing such false content. Circulating fabricated documents not only misinforms society but may also constitute a punishable offense under the law.
+
+The Sri Lanka Police further reiterates its commitment to upholding the law, protecting children and women, and ensuring accurate and verified information is communicated to the public.
+
+For official information, the public is urged to rely solely on announcements and press releases issued directly by the Sri Lanka Police Media Division
+
+Police Media Division
+
+D/Media/Out/1784/2025 2025.09.22 පැය 1905
