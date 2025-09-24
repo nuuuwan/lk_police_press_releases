@@ -1,12 +1,12 @@
 # 👮‍♂️#SriLanka 🇱🇰 Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_10:08:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_12:12:54-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
 A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
 
-- [**694** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**237.9 MB**), from **2025-05-01** to **2025-09-23**, scraped from **[https://www.police.lk](https://www.police.lk)**
+- [**698** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**238.7 MB**), from **2025-05-01** to **2025-09-24**, scraped from **[https://www.police.lk](https://www.police.lk)**
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -17,14 +17,14 @@ A police press release is an official update from law enforcement on crimes, arr
 ```json
 {
     "doc_type": "lk_police_press_releases",
-    "doc_id": "2025-09-23-2025-09-23-06-05",
-    "num": "2025-09-23 06:05",
-    "date_str": "2025-09-23",
-    "description": "2025-09-23 06:05",
+    "doc_id": "2025-09-24-2025-09-24-06-15",
+    "num": "2025-09-24 06:15",
+    "date_str": "2025-09-24",
+    "description": "2025-09-24 06:15",
     "url_metadata": "https://www.police.lk/?p=15185",
     "lang": "si",
-    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.23-at-0605-_compressed.pdf",
-    "time_str": "2025-09-23 06:05"
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.24-at-0615-_compressed.pdf",
+    "time_str": "2025-09-24 06:15"
 }
 ```
 
@@ -39,6 +39,10 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 🆕 20 Latest documents
 
+- 2025-09-24 | `2025-09-24 06:15` | 2025-09-24 06:15 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-24-2025-09-24-06-15)
+- 2025-09-23 | `2025-09-23 13:00` | 2025-09-23 13:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-23-2025-09-23-13-00)
+- 2025-09-23 | `2025-09-23 12:55` | 2025-09-23 12:55 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-23-2025-09-23-12-55)
+- 2025-09-23 | `2025-09-23 08:35` | 2025-09-23 08:35 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-23-2025-09-23-08-35)
 - 2025-09-23 | `2025-09-23 06:05` | 2025-09-23 06:05 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-23-2025-09-23-06-05)
 - 2025-09-22 | `2025-09-22 19:05` | 2025-09-22 19:05 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-22-2025-09-22-19-05)
 - 2025-09-22 | `2025-09-22 19:00` | 2025-09-22 19:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-22-2025-09-22-19-00)
@@ -55,10 +59,6 @@ A police press release is an official update from law enforcement on crimes, arr
 - 2025-09-19 | `2025-09-19 15:45` | 2025-09-19 15:45 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-19-2025-09-19-15-45)
 - 2025-09-19 | `2025-09-19 10:15` | 2025-09-19 10:15 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-19-2025-09-19-10-15)
 - 2025-09-19 | `2025-09-19 08:55` | 2025-09-19 08:55 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-19-2025-09-19-08-55)
-- 2025-09-19 | `2025-09-19 06:30` | 2025-09-19 06:30 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-19-2025-09-19-06-30)
-- 2025-09-18 | `2025-09-18 15:15` | 2025-09-18 15:15 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-18-2025-09-18-15-15)
-- 2025-09-18 | `2025-09-18 08:30` | 2025-09-18 08:30 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-18-2025-09-18-08-30)
-- 2025-09-18 | `2025-09-18 06:30` | 2025-09-18 06:30 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-09-18-2025-09-18-06-30)
 
 ---
 
