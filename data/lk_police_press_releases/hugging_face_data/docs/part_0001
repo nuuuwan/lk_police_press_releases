@@ -7874,5 +7874,60 @@
     "lang": "si",
     "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.29-at-0615_compressed.pdf",
     "time_str": "2025-09-29 06:15"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-09-29-2025-09-29-14-30",
+    "num": "2025-09-29 14:30",
+    "date_str": "2025-09-29",
+    "description": "2025-09-29 14:30",
+    "url_metadata": "https://www.police.lk/?p=15185",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.29-at-1430-_compressed.pdf",
+    "time_str": "2025-09-29 14:30"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-09-29-2025-09-29-15-55",
+    "num": "2025-09-29 15:55",
+    "date_str": "2025-09-29",
+    "description": "2025-09-29 15:55",
+    "url_metadata": "https://www.police.lk/?p=15185",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.29-at-1555-_compressed.pdf",
+    "time_str": "2025-09-29 15:55"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-09-29-2025-09-29-16-50",
+    "num": "2025-09-29 16:50",
+    "date_str": "2025-09-29",
+    "description": "2025-09-29 16:50",
+    "url_metadata": "https://www.police.lk/?p=15185",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.29-at-1650-_compressed.pdf",
+    "time_str": "2025-09-29 16:50"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-09-30-2025-09-30-06-15",
+    "num": "2025-09-30 06:15",
+    "date_str": "2025-09-30",
+    "description": "2025-09-30 06:15",
+    "url_metadata": "https://www.police.lk/?p=15185",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.30-at-0615-_compressed.pdf",
+    "time_str": "2025-09-30 06:15"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-09-30-2025-09-30-07-50",
+    "num": "2025-09-30 07:50",
+    "date_str": "2025-09-30",
+    "description": "2025-09-30 07:50",
+    "url_metadata": "https://www.police.lk/?p=15185",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/09/Media-on-2025.09.30-at-0750-_compressed.pdf",
+    "time_str": "2025-09-30 07:50"
   }
 ]
