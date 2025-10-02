@@ -1,5 +1,5 @@
 
-utils-nuuuwan
 bs4
-PyPDF2
 pymupdf
+PyPDF2
+utils-nuuuwan
