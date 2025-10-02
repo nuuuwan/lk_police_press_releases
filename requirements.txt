@@ -2,4 +2,5 @@
 bs4
 pymupdf
 PyPDF2
+scraper-nuuuwan
 utils-nuuuwan
