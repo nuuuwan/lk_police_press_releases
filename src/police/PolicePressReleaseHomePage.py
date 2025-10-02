@@ -4,7 +4,7 @@ from typing import Generator
 from utils import Log
 
 from police.PolicePressReleasePage import PolicePressReleasePage
-from utils_future import WWW
+from utils import WWW
 
 log = Log("PolicePressReleaseHomePage")
 

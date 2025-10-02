@@ -2,7 +2,7 @@ from typing import Generator
 
 from utils import Log
 
-from utils_future import WWW, Parse
+from utils import WWW, Parse
 
 log = Log("PolicePressReleasePage")
 
