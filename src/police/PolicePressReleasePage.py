@@ -1,8 +1,6 @@
 from typing import Generator
 
-from utils import Log
-
-from utils import WWW, Parse
+from utils import WWW, Log, Parse
 
 log = Log("PolicePressReleasePage")
 
@@ -15,7 +13,9 @@ class PolicePressReleasePage(WWW):
             soup = self.soup
         except Exception as e:
             log.error(f"[{self}] {e}")
+        if not soup:
             return
+
         div_list = soup.find_all(
             "div",
             attrs={"data-element_type": "container"},
@@ -27,9 +27,14 @@ class PolicePressReleasePage(WWW):
             yield div, h3_list[0]
 
     def __get_labelled_page__(self, label):
-        soup = self.soup
+        soup = None
+        try:
+            soup = self.soup
+        except Exception as e:
+            log.error(f"[{self}] {e}")
         if not soup:
             return None
+
         a_list = soup.find_all("a")
         for a in a_list:
             span = a.find("span", text=label)
