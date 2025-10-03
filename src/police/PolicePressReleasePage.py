@@ -10,9 +10,13 @@ log = Log("PolicePressReleasePage")
 class PolicePressReleasePage(WWW):
 
     def __gen_div_date_list__(self):
-        if not self.soup:
+        soup = None
+        try:
+            soup = self.soup
+        except Exception as e:
+            log.error(f"[{self}] {e}")
             return
-        div_list = self.soup.find_all(
+        div_list = soup.find_all(
             "div",
             attrs={"data-element_type": "container"},
         )
