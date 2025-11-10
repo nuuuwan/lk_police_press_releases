@@ -9601,5 +9601,38 @@
     "lang": "si",
     "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.08-at-0545_compressed.pdf",
     "time_str": "2025-11-08 05:45"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-11-08-2025-11-08-10-40",
+    "num": "2025-11-08 10:40",
+    "date_str": "2025-11-08",
+    "description": "2025-11-08 10:40",
+    "url_metadata": "https://www.police.lk/?p=16390",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.08-at-1040-_compressed.pdf",
+    "time_str": "2025-11-08 10:40"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-11-08-2025-11-08-17-10",
+    "num": "2025-11-08 17:10",
+    "date_str": "2025-11-08",
+    "description": "2025-11-08 17:10",
+    "url_metadata": "https://www.police.lk/?p=16390",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.08-at-1710-_compressed.pdf",
+    "time_str": "2025-11-08 17:10"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-11-08-2025-11-08-18-05",
+    "num": "2025-11-08 18:05",
+    "date_str": "2025-11-08",
+    "description": "2025-11-08 18:05",
+    "url_metadata": "https://www.police.lk/?p=16390",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.08-at-1805-_compressed.pdf",
+    "time_str": "2025-11-08 18:05"
   }
 ]
