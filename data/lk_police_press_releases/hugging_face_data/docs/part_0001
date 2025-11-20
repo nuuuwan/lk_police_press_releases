@@ -9769,6 +9769,17 @@
   },
   {
     "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-11-14-2025-11-14-23-30",
+    "num": "2025-11-14 23:30",
+    "date_str": "2025-11-14",
+    "description": "2025-11-14 23:30",
+    "url_metadata": "https://www.police.lk/?p=16390",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.14-at-2330-_compressed.pdf",
+    "time_str": "2025-11-14 23:30"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
     "doc_id": "2025-11-15-2025-11-15-05-40",
     "num": "2025-11-15 05:40",
     "date_str": "2025-11-15",
@@ -9777,5 +9788,49 @@
     "lang": "si",
     "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.15-at-0545_compressed.pdf",
     "time_str": "2025-11-15 05:40"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-11-17-2025-11-17-07-50",
+    "num": "2025-11-17 07:50",
+    "date_str": "2025-11-17",
+    "description": "2025-11-17 07:50",
+    "url_metadata": "https://www.police.lk/?p=16390",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.17-at-0750-_compressed.pdf",
+    "time_str": "2025-11-17 07:50"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-11-17-2025-11-17-11-20",
+    "num": "2025-11-17 11:20",
+    "date_str": "2025-11-17",
+    "description": "2025-11-17 11:20",
+    "url_metadata": "https://www.police.lk/?p=16390",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.17-at-1120-_compressed.pdf",
+    "time_str": "2025-11-17 11:20"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-11-17-2025-11-17-15-15",
+    "num": "2025-11-17 15:15",
+    "date_str": "2025-11-17",
+    "description": "2025-11-17 15:15",
+    "url_metadata": "https://www.police.lk/?p=16390",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.17-at-1515-_compressed.pdf",
+    "time_str": "2025-11-17 15:15"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2025-11-17-2025-11-17-21-50",
+    "num": "2025-11-17 21:50",
+    "date_str": "2025-11-17",
+    "description": "2025-11-17 21:50",
+    "url_metadata": "https://www.police.lk/?p=16390",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/11/Media-on-2025.11.17-at-2150-_compressed.pdf",
+    "time_str": "2025-11-17 21:50"
   }
 ]
