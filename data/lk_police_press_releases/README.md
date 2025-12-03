@@ -1,12 +1,12 @@
 # 👮‍♂️#SriLanka 🇱🇰 Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--03_16:25:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--03_18:31:00-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
 A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
 
-- [**947** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**319.2 MB**), from **2025-05-01** to **2025-12-02**, scraped from [https://www.police.lk](https://www.police.lk)
+- [**949** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**319.5 MB**), from **2025-05-01** to **2025-12-03**, scraped from [https://www.police.lk](https://www.police.lk)
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -19,14 +19,14 @@ A police press release is an official update from law enforcement on crimes, arr
 ```json
 {
     "doc_type": "lk_police_press_releases",
-    "doc_id": "2025-12-02-2025-12-02-05-45",
-    "num": "2025-12-02 05:45",
-    "date_str": "2025-12-02",
-    "description": "2025-12-02 05:45",
+    "doc_id": "2025-12-03-2025-12-03-07-15",
+    "num": "2025-12-03 07:15",
+    "date_str": "2025-12-03",
+    "description": "2025-12-03 07:15",
     "url_metadata": "https://www.police.lk/?p=17288",
     "lang": "si",
-    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/12/Media-on-2025.12.02-at-0545-_compressed-1.pdf",
-    "time_str": "2025-12-02 05:45"
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/12/Media-on-2025.12.03-at-0715-_compressed.pdf",
+    "time_str": "2025-12-03 07:15"
 }
 ```
 
@@ -41,6 +41,8 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 🆕 20 Latest documents
 
+- 2025-12-03 | `2025-12-03 07:15` | 2025-12-03 07:15 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-12-03-2025-12-03-07-15)
+- 2025-12-03 | `2025-12-03 06:00` | 2025-12-03 06:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-12-03-2025-12-03-06-00)
 - 2025-12-02 | `2025-12-02 05:45` | 2025-12-02 05:45 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-12-02-2025-12-02-05-45)
 - 2025-12-01 | `2025-12-01 22:00` | 2025-12-01 22:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-12-01-2025-12-01-22-00)
 - 2025-12-01 | `2025-12-01 21:15` | 2025-12-01 21:15 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-12-01-2025-12-01-21-15)
@@ -59,8 +61,6 @@ A police press release is an official update from law enforcement on crimes, arr
 - 2025-11-29 | `2025-11-29 21:05` | 2025-11-29 21:05 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-11-29-2025-11-29-21-05)
 - 2025-11-29 | `2025-11-29 21:00` | 2025-11-29 21:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-11-29-2025-11-29-21-00)
 - 2025-11-29 | `2025-11-29 16:30` | 2025-11-29 16:30 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-11-29-2025-11-29-16-30)
-- 2025-11-29 | `2025-11-29 15:05` | 2025-11-29 15:05 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-11-29-2025-11-29-15-05)
-- 2025-11-29 | `2025-11-29 15:00` | 2025-11-29 15:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2025/2025-11-29-2025-11-29-15-00)
 
 ---
 
