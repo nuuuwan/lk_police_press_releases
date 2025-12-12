@@ -2,15 +2,15 @@
   "doc_class_label": "lk_police_press_releases",
   "doc_class_emoji": "\ud83d\udc6e\u200d\u2642\ufe0f",
   "doc_class_description": "A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.",
-  "time_updated": "2025-12-12 16:24:23",
-  "n_docs": 950,
-  "n_docs_with_pdfs": 950,
-  "n_docs_with_text": 950,
+  "time_updated": "2025-12-12 18:30:57",
+  "n_docs": 954,
+  "n_docs_with_pdfs": 954,
+  "n_docs_with_text": 954,
   "n_docs_with_excel": 0,
   "n_docs_with_tabular": 0,
   "date_str_min": "2025-05-01",
-  "date_str_max": "2025-12-10",
-  "dataset_size": 320166260,
+  "date_str_max": "2025-12-11",
+  "dataset_size": 321143583,
   "url_source_list": [
     "https://www.police.lk"
   ],
@@ -21,13 +21,13 @@
   ],
   "latest_doc_d": {
     "doc_type": "lk_police_press_releases",
-    "doc_id": "2025-12-10-2025-12-10-05-45",
-    "num": "2025-12-10 05:45",
-    "date_str": "2025-12-10",
-    "description": "2025-12-10 05:45",
+    "doc_id": "2025-12-11-2025-12-11-05-30",
+    "num": "2025-12-11 05:30",
+    "date_str": "2025-12-11",
+    "description": "2025-12-11 05:30",
     "url_metadata": "https://www.police.lk/?p=17288",
     "lang": "si",
-    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/12/Media-on-2025.12.10-at-0545-_compressed.pdf",
-    "time_str": "2025-12-10 05:45"
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2025/12/Media-on-2025.12.11-at-0530-_compressed.pdf",
+    "time_str": "2025-12-11 05:30"
   }
 }
