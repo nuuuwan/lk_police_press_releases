@@ -2,7 +2,7 @@
   "doc_class_label": "lk_police_press_releases",
   "doc_class_emoji": "\ud83d\udc6e\u200d\u2642\ufe0f",
   "doc_class_description": "A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.",
-  "time_updated": "2026-01-22 04:26:37",
+  "time_updated": "2026-01-22 06:33:50",
   "n_docs": 1062,
   "n_docs_with_pdfs": 1062,
   "n_docs_with_text": 1062,
@@ -10,7 +10,7 @@
   "n_docs_with_tabular": 0,
   "date_str_min": "2025-05-01",
   "date_str_max": "2026-01-17",
-  "dataset_size": 362211642,
+  "dataset_size": 362211644,
   "url_source_list": [
     "https://www.police.lk"
   ],
