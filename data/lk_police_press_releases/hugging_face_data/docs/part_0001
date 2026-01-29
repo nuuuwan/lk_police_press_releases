@@ -11804,6 +11804,17 @@
   },
   {
     "doc_type": "lk_police_press_releases",
+    "doc_id": "2026-01-23-2026-01-23-05-35",
+    "num": "2026-01-23 05:35",
+    "date_str": "2026-01-23",
+    "description": "2026-01-23 05:35",
+    "url_metadata": "https://www.police.lk/?p=18603",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2026/01/Media-on-2026.01.23-at-0535-_compressed.pdf",
+    "time_str": "2026-01-23 05:35"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
     "doc_id": "2026-01-23-2026-01-23-22-50",
     "num": "2026-01-23 22:50",
     "date_str": "2026-01-23",
@@ -11812,5 +11823,49 @@
     "lang": "si",
     "url_pdf": "https://www.police.lk/wp-content/uploads/2026/01/Media-on-2026.01.23-at-2250-_compressed.pdf",
     "time_str": "2026-01-23 22:50"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2026-01-24-2026-01-24-05-45",
+    "num": "2026-01-24 05:45",
+    "date_str": "2026-01-24",
+    "description": "2026-01-24 05:45",
+    "url_metadata": "https://www.police.lk/?p=18603",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2026/01/Media-on-2026.01.24-at-0545-_compressed.pdf",
+    "time_str": "2026-01-24 05:45"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2026-01-25-2026-01-25-05-30",
+    "num": "2026-01-25 05:30",
+    "date_str": "2026-01-25",
+    "description": "2026-01-25 05:30",
+    "url_metadata": "https://www.police.lk/?p=18603",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2026/01/Media-on-2026.01.25-at-0530-_compressed.pdf",
+    "time_str": "2026-01-25 05:30"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2026-01-25-2026-01-25-07-35",
+    "num": "2026-01-25 07:35",
+    "date_str": "2026-01-25",
+    "description": "2026-01-25 07:35",
+    "url_metadata": "https://www.police.lk/?p=18603",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2026/01/Media-on-2026.01.25-at-0735-_compressed.pdf",
+    "time_str": "2026-01-25 07:35"
+  },
+  {
+    "doc_type": "lk_police_press_releases",
+    "doc_id": "2026-01-25-2026-01-25-13-20",
+    "num": "2026-01-25 13:20",
+    "date_str": "2026-01-25",
+    "description": "2026-01-25 13:20",
+    "url_metadata": "https://www.police.lk/?p=18603",
+    "lang": "si",
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2026/01/Meda-on-2026.01.25-at-1320-_compressed.pdf",
+    "time_str": "2026-01-25 13:20"
   }
 ]
