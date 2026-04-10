@@ -1,16 +1,16 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**1** datasets, with **1,236** documents (**434.2 MB**).
+**1** datasets, with **1,240** documents (**435.1 MB**).
 
 ## 001 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--10_14:39:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--10_16:31:42-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
 A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
 
-- [**1,236** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**434.2 MB**), from **2025-05-01** to **2026-04-08**, scraped from [https://www.police.lk](https://www.police.lk)
+- [**1,240** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**435.1 MB**), from **2025-05-01** to **2026-04-10**, scraped from [https://www.police.lk](https://www.police.lk)
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
