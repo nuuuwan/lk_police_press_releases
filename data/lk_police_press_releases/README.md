@@ -1,12 +1,12 @@
 # 👮‍♂️#SriLanka 🇱🇰 Police Press Releases `Dataset`
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--24_14:53:49-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--24_16:37:52-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
 A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
 
-- [**1,270** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**447.7 MB**), from **2025-05-01** to **2026-04-21**, scraped from [https://www.police.lk](https://www.police.lk)
+- [**1,272** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**448.1 MB**), from **2025-05-01** to **2026-04-22**, scraped from [https://www.police.lk](https://www.police.lk)
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -19,14 +19,14 @@ A police press release is an official update from law enforcement on crimes, arr
 ```json
 {
     "doc_type": "lk_police_press_releases",
-    "doc_id": "2026-04-21-2026-04-21-07-55",
-    "num": "2026-04-21 07:55",
-    "date_str": "2026-04-21",
-    "description": "2026-04-21 07:55",
+    "doc_id": "2026-04-22-2026-04-22-20-40",
+    "num": "2026-04-22 20:40",
+    "date_str": "2026-04-22",
+    "description": "2026-04-22 20:40",
     "url_metadata": "https://www.police.lk/?p=22395",
     "lang": "si",
-    "url_pdf": "https://www.police.lk/wp-content/uploads/2026/04/Media-on-2026.04.21-at-0755_compressed.pdf",
-    "time_str": "2026-04-21 07:55"
+    "url_pdf": "https://www.police.lk/wp-content/uploads/2026/04/Media-on-2026.04.22-at-2040-_compressed.pdf",
+    "time_str": "2026-04-22 20:40"
 }
 ```
 
@@ -41,6 +41,8 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 🆕 20 Latest documents
 
+- 2026-04-22 | `2026-04-22 20:40` | 2026-04-22 20:40 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-22-2026-04-22-20-40)
+- 2026-04-22 | `2026-04-22 05:45` | 2026-04-22 05:45 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-22-2026-04-22-05-45)
 - 2026-04-21 | `2026-04-21 07:55` | 2026-04-21 07:55 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-21-2026-04-21-07-55)
 - 2026-04-21 | `2026-04-21 05:45` | 2026-04-21 05:45 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-21-2026-04-21-05-45)
 - 2026-04-20 | `2026-04-20 18:35` | 2026-04-20 18:35 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-20-2026-04-20-18-35)
@@ -59,8 +61,6 @@ A police press release is an official update from law enforcement on crimes, arr
 - 2026-04-15 | `2026-04-15 22:00` | 2026-04-15 22:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-15-2026-04-15-22-00)
 - 2026-04-15 | `2026-04-15 21:00` | 2026-04-15 21:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-15-2026-04-15-21-00)
 - 2026-04-15 | `2026-04-15 15:50` | 2026-04-15 15:50 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-15-2026-04-15-15-50)
-- 2026-04-15 | `2026-04-15 05:40` | 2026-04-15 05:40 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-15-2026-04-15-05-40)
-- 2026-04-14 | `2026-04-14 06:00` | 2026-04-14 06:00 | [data](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases/2020s/2026/2026-04-14-2026-04-14-06-00)
 
 ---
 
