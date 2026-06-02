@@ -4,7 +4,7 @@
 
 ## 001 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--02_11:48:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--02_13:51:47-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
