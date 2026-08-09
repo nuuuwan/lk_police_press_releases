@@ -3,7 +3,7 @@ import unittest
 from police import PolicePressReleasePage
 
 
-class TestCase(unittest.TestCase):
+class TestParseTimeStr(unittest.TestCase):
     def test_compact_24h_time(self):
         self.assertEqual(
             PolicePressReleasePage.__parse_time_str__("2026.08.01 000"),
