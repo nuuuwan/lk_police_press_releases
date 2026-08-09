@@ -1,3 +1,5 @@
+import re
+from datetime import datetime
 from typing import Generator
 
 from utils import WWW, Log, Parse
@@ -51,6 +53,32 @@ class PolicePressReleasePage(WWW):
     def get_next_page(self) -> "PolicePressReleasePage":
         return self.__get_labelled_page__("Next")
 
+    @staticmethod
+    def __parse_time_str__(x: str) -> str:
+        x = x.replace("hrs.", "").replace("hrs", "").strip()
+
+        # Handle compact 24-hour times like "2026.08.01 000" or "2026.08.01 120"
+        m = re.match(r"^(\d{4})[-.](\d{2})[-.](\d{2})\s+(\d{1,2})(\d{2})$", x)
+        if m:
+            year, month, day, hour, minute = m.groups()
+            dt = datetime(
+                int(year), int(month), int(day), int(hour), int(minute)
+            )
+            return dt.strftime(Parse.TIME_FORMAT)
+
+        # Handle dot-separated times like "2026.08.01 12.30"
+        m = re.match(
+            r"^(\d{4})[-.](\d{2})[-.](\d{2})\s+(\d{1,2})\.(\d{2})$", x
+        )
+        if m:
+            year, month, day, hour, minute = m.groups()
+            dt = datetime(
+                int(year), int(month), int(day), int(hour), int(minute)
+            )
+            return dt.strftime(Parse.TIME_FORMAT)
+
+        return Parse.time_str(x)
+
     def __gen_dicts_from_div_date_list__(
         self, div, h3
     ) -> Generator[dict, None, None]:
@@ -58,8 +86,8 @@ class PolicePressReleasePage(WWW):
         h5_list = div.find_all("h5")
         for h5 in h5_list:
             time_str_raw = h5.get_text(strip=True)
-            time_str = Parse.time_str(
-                f"{date_str} {time_str_raw}".replace("hrs.", "")[:15]
+            time_str = PolicePressReleasePage.__parse_time_str__(
+                f"{date_str} {time_str_raw}"
             )
 
             a = h5.find("a")
