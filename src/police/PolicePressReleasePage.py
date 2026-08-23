@@ -76,7 +76,7 @@ class PolicePressReleasePage(WWW):
                 int(year), int(month), int(day), int(hour), int(minute)
             )
             return dt.strftime(Parse.TIME_FORMAT)
-
+        x = x.split("(")[0].strip()
         return Parse.time_str(x)
 
     def __gen_dicts_from_div_date_list__(
